@@ -14,7 +14,7 @@ const PASSWORD_CONFIG = {
 // 网站信息配置
 const SITE_CONFIG = {
     name: '闪电影视',
-    url: 'https://libretv.is-an.org',
+    url: 'https://shandianyingshi-web.mwzbl.dpdns.org',
     description: '免费在线视频搜索与观看平台',
     logo: 'image/logo.png',
     version: '1.0.3'
@@ -30,6 +30,18 @@ const API_SITES = {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意',
     },
+    myzy: {
+        api: 'https://api.maoyanapi.top/api.php/provide/vod/',
+        name: '猫眼',
+    },
+    yzzy: {
+        api: 'https://api.yzzy-api.com/inc/apijson.php',
+        name: '优质',
+    },
+    mtzy: {
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod/',
+        name: '茅台',
+    },
     bfzy: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
         name: '暴风',
@@ -42,6 +54,10 @@ const API_SITES = {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡影视',
         detail: 'http://ffzy5.tv', 
+    },
+    snzy: {
+        api: 'https://suoniapi.com/api.php/provide/vod/',
+        name: '索尼',
     },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
@@ -102,9 +118,9 @@ const API_SITES = {
     }
     //黄色资源
     ,
-    ckzy: {
-        api: 'https://hsckzy888.com/api.php/provide/vod/',
-        name: '黄色仓库',
+    avzy: {
+        api: 'https://api.souavzy.vip/api.php/provide/vod/',
+        name: 'AV',
         adult: true
     }
 };
