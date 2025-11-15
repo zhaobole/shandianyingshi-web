@@ -1,7 +1,7 @@
 const CUSTOMER_SITES = {
     qiqi: {
         api: '接口',
-        name: '',
+        name: '测试播放源',
     }
 };
 
