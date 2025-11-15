@@ -1,6 +1,6 @@
 const CUSTOMER_SITES = {
     qiqi: {
-        api: 'https://www.qiqidys.com/api.php/provide/vod',
+        api: '接口',
         name: '',
     }
 };
