@@ -22,99 +22,156 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    dyttzy: {
-        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-        name: '电影天堂',
+        hnzy: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod/',
+        name: '红牛',
+    },
+    sdzy: {
+        api: 'https://xsd.sdzyapi.com/api.php/provide/vod/',
+        name: '闪电',
+    },
+    xlzy: {
+        api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/',
+        name: '新浪',
+    },
+    sbzy: {
+        api: 'https://subocaiji.com/api.php/provide/vod/',
+        name: '速播',
+    },
+    hhzy: {
+        api: 'https://hhzyapi.com/api.php/provide/vod/',
+        name: '豪华',
+    },
+    dbzy: {
+        api: 'https://caiji.dbzy.tv/api.php/provide/vod/',
+        name: '豆瓣',
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意',
     },
-    myzy: {
-        api: 'https://api.maoyanapi.top/api.php/provide/vod/',
-        name: '猫眼',
+    ukzy: {
+        api: 'https://api.ukuapi88.com/api.php/provide/vod/',
+        name: 'U酷',
     },
-    yzzy: {
-        api: 'https://api.yzzy-api.com/inc/apijson.php',
-        name: '优质',
-    },
-    mtzy: {
-        api: 'https://caiji.maotaizy.cc/api.php/provide/vod/',
-        name: '茅台',
-    },
-    bfzy: {
-        api: 'https://bfzyapi.com/api.php/provide/vod',
-        name: '暴风',
-    },
-    tyyszy: {
-        api: 'https://tyyszy.com/api.php/provide/vod',
-        name: '天涯',
-    },
-    ffzy: {
-        api: 'http://ffzy5.tv/api.php/provide/vod',
-        name: '非凡影视',
-        detail: 'http://ffzy5.tv', 
-    },
-    snzy: {
-        api: 'https://suoniapi.com/api.php/provide/vod/',
-        name: '索尼',
-    },
-    zy360: {
-        api: 'https://360zy.com/api.php/provide/vod',
-        name: '360',
-    },
-    iqiyi: {
-        api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
-        name: '爱奇艺',
-    },
-    wolong: {
-        api: 'https://wolongzyw.com/api.php/provide/vod',
-        name: '卧龙',
-    }, 
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
         name: '极速',
         detail: 'https://jszyapi.com', 
     },
-    dbzy: {
-        api: 'https://dbzy.tv/api.php/provide/vod',
-        name: '豆瓣',
+    tpzy: {
+        api: 'https://taopianapi.com/cjapi/mc10/vod/json.html',
+        name: '淘片',
     },
-    mozhua: {
-        api: 'https://mozhuazy.com/api.php/provide/vod',
-        name: '魔爪',
+    lzzy: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/',
+        name: '量子'
+    },
+    hyzy: {
+        api: 'https://www.huyaapi.com/api.php/provide/vod/',
+        name: '虎牙',
+    },
+    gszy: {
+        api: 'https://api.guangsuapi.com/api.php/provide/vod/',
+        name: '光速',
+    },
+    dyttzy: {
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+        name: '电影天堂',
+    },
+    mtzy: {
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod/',
+        name: '茅台',
+    },
+    yzzy: {
+        api: 'https://api.yzzy-api.com/inc/apijson.php',
+        name: '优质',
+    },
+    wjzy: {
+        api: 'https://api.wujinapi.me/api.php/provide/vod',
+        name: '无尽'
+    },
+    okzy: {
+        api: 'https://api.okzyw.net/api.php/provide/vod/',
+        name: 'OK'
+    },
+    yyzy: {
+        api: 'https://cj.yayazy.net/api.php/provide/vod/',
+        name: '鸭鸭'
+    },
+    kczy: {
+        api: 'https://caiji.kuaichezy.org/api.php/provide/vod/',
+        name: '快车'
+    },
+    zdzy: {
+        api: 'https://api.zuidapi.com/api.php/provide/vod',
+        name: '最大'
+    },
+    snzy: {
+        api: 'https://suoniapi.com/api.php/provide/vod/',
+        name: '索尼',
+    },
+    nnzy: {
+        api: 'https://api.niuniuzy.me/api.php/provide/vod/',
+        name: '牛牛',
     },
     mdzy: {
         api: 'https://www.mdzyapi.com/api.php/provide/vod',
         name: '魔都',
     },
-    zuid: {
-        api: 'https://api.zuidapi.com/api.php/provide/vod',
-        name: '最大'
+    360zy: {
+        api: 'https://360zy.com/api.php/provide/vod',
+        name: '360',
     },
-    yinghua: {
-        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
-        name: '樱花'
-    },
-    baidu: {
-        api: 'https://api.apibdzy.com/api.php/provide/vod',
-        name: '百度云'
-    },
-    wujin: {
-        api: 'https://api.wujinapi.me/api.php/provide/vod',
-        name: '无尽'
-    },
-    wwzy: {
-        api: 'https://wwzy.tv/api.php/provide/vod',
-        name: '旺旺短剧'
-    },
-    ikun: {
+    ,
+    ikunzy: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun'
     },
-    lzi: {
-        api: 'https://cj.lziapi.com/api.php/provide/vod/',
-        name: '量子'
+    bfzy: {
+        api: 'https://bfzyapi.com/api.php/provide/vod',
+        name: '暴风',
+    },
+    wlzy: {
+        api: 'https://wolongzyw.com/api.php/provide/vod',
+        name: '卧龙',
+    },
+    tyyszy: {
+        api: 'https://tyyszy.com/api.php/provide/vod',
+        name: '天涯',
+    },
+    myzy: {
+        api: 'https://api.maoyanapi.top/api.php/provide/vod/',
+        name: '猫眼',
+    },
+    yhzy: {
+        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
+        name: '樱花'
+    },
+    aqyzy: {
+        api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
+        name: '爱奇艺',
+    },
+    pgzy: {
+        api: 'https://cj.maczy.me/api.php/provide/vod/',
+        name: '苹果',
+    },    
+    ffzy: {
+        api: 'http://ffzy5.tv/api.php/provide/vod',
+        name: '非凡影视',
+        detail: 'http://ffzy5.tv', 
+    },
+    mzzy: {
+        api: 'https://mozhuazy.com/api.php/provide/vod',
+        name: '魔爪',
+    },
+    bdzy: {
+        api: 'https://api.apibdzy.com/api.php/provide/vod',
+        name: '百度云'
+    },
+    wwdjzy: {
+        api: 'https://wwzy.tv/api.php/provide/vod',
+        name: '旺旺短剧'
     }
     //黄色资源
     ,
